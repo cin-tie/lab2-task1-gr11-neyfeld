@@ -1,5 +1,5 @@
 language = "c"
-run = "gcc -o labrabota2-1 /home/runner/workspace/src/main.c"
+run = "gcc -o labrabota2-1 /home/runner/workspace/src/main.c && /home/runner/workspace/labrabota2-1"
 
 [nix]
 channel = "stable-25_05"
