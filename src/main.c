@@ -44,11 +44,6 @@ int main(int argc, char *argv[])
 		}
 
 		n = atoi(argv[1]);
-		if (n <= 0 || n > MAX_NUMBERS)
-		{
-				printf("Number of elements must be between 1 and %d\n", MAX_NUMBERS);
-				return 1;
-		}
 
 		generate_random_numbers(numbers, n);
 
