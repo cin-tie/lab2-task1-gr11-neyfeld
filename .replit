@@ -1,5 +1,5 @@
 language = "c"
-run = "gcc -Iinclude -o labrabota2-1 src/main.c src/digit_utils.c && ./labrabota2-1 150"
+run = "gcc -Iinclude -o labrabota2-1 src/main.c src/digit_utils.c && ./labrabota2-1 -1"
 
 [nix]
 channel = "stable-25_05"
